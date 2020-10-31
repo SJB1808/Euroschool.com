@@ -1,0 +1,2534 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Champstreet</title>
+        <link rel="shortcut icon" href="/resources/latestLogin/assets/favicon.ico">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+             <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap/bootstrap.min.css?v=0.1" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/libs/font-awesome.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/libs/nanoscroller.css" />
+        <link rel="stylesheet" type="text/css" href="/resources/css/compiled/theme_styles.css" />
+	<link rel="stylesheet" href="/resources/champStreet19/assets/fonts/fontawesome/css/all.css">
+	<link rel="stylesheet" href="/resources/champStreet19/assets/fonts/themify-icons/css/themify-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+        <link type="image/x-icon" href="favicon.png" rel="shortcut icon" />
+
+        <!-- google font libraries -->
+<!--        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Titillium+Web:200,300,400' rel='stylesheet' type='text/css'>-->
+
+        <!--[if lt IE 9]>
+                <script src="/resources/js/html5shiv.js"></script>
+                <script src="/resources/js/respond.min.js"></script>
+        <![endif]-->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FNT8RK');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+         <style>
+   .tool-tip{
+	color: #fff;
+	background: #2980b9;
+	text-shadow: none;
+	font-size: .8em;
+	visibility: hidden;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	text-align: center;
+	opacity: 0;
+	z-index: 999;
+	padding: 3px 8px;
+	position: absolute;
+	cursor: default;
+	-webkit-transition: all 240ms ease-in-out;
+	-moz-transition: all 240ms ease-in-out;
+	-ms-transition: all 240ms ease-in-out;
+	-o-transition: all 240ms ease-in-out;
+	transition: all 240ms ease-in-out;
+}
+
+.tool-tip,
+.tool-tip.top{
+	top: auto;
+	bottom: 105%;
+	left: 10%;
+}
+
+.tool-tip.top:after,
+.tool-tip:after{
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	margin-left: -7px;
+	content: ' ';
+	height: 0px;
+	width: 0px;
+	border: 6px solid transparent;
+    border-top-color: rgba( 41, 128, 185, .7);
+}
+
+/* default heights, width and margin w/o Javscript */
+
+.tool-tip,
+.tool-tip.top{
+	width: auto;
+	height: auto;
+	margin-left: -43px;
+}
+
+*:not(.on-focus):hover > .tool-tip,
+.on-focus input:focus + .tool-tip{
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: all 240ms ease-in-out;
+	-moz-transition: all 240ms ease-in-out;
+	-ms-transition: all 240ms ease-in-out;
+	-o-transition: all 240ms ease-in-out;
+	transition: all 240ms ease-in-out;
+}
+
+
+/* tool tip slide out */
+
+*:not(.on-focus) > .tool-tip.slideIn,
+.on-focus > .tool-tip{
+	display: block;
+}
+
+.on-focus > .tool-tip.slideIn{
+	z-index: -1;
+}
+
+.on-focus > input:focus + .tool-tip.slideIn{
+	z-index: 1;
+}
+
+
+/* top slideIn */
+
+*:not(.on-focus) > .tool-tip.slideIn,
+*:not(.on-focus) > .tool-tip.slideIn.top,
+.on-focus > .tool-tip.slideIn,
+.on-focus > .tool-tip.slideIn.top{
+	bottom: 50%;
+}
+
+*:not(.on-focus):hover > .tool-tip.slideIn,
+*:not(.on-focus):hover > .tool-tip.slideIn.top,
+.on-focus > input:focus + .tool-tip.slideIn,
+.on-focus > input:focus + .tool-tip.slideIn.top{
+	bottom: 110%;
+}
+
+</style>
+    </head>
+    <body>
+        <div id="theme-wrapper">
+
+            <header class="navbar" id="header-navbar">
+                
+
+
+
+
+<!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+
+
+<div class="container" style="background:#3f51b5">
+    
+    <a href="http://www.champstreet.com" id="logo" class="navbar-brand">
+            <img src="/resources/newTemplate/images/logochamps.png" alt="Champstreet" title="Champstreet" class="normal-logo logo-white" style="width: 135px;padding-right: 0px;height:auto;"/>
+            
+        </a>
+     
+
+
+        <div class="clearfix" style="background: #3f51b5;">
+            <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="nav-no-collapse navbar-left pull-left ">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="hidden-sm hidden-xs">
+                        <a class="btn" id="make-small-nav">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                    
+                    <li class="dropdown hidden-xs">
+                        <a class="btn dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-bell"></i>
+                            <span class="count">0</span>
+                        </a>
+                    <ul class="dropdown-menu notifications-list">
+                        <li class="pointer">
+                            <div class="pointer-inner">
+                                <div class="arrow"></div>
+                            </div>
+                        </li>
+                        <li class="item-header">You have 0 new notifications</li>
+                        
+                        
+                    
+                        
+                        
+                        
+<!--                        <li class="item-footer">
+                            <a href="#">
+                                View all notifications
+                            </a>
+                        </li>-->
+                    </ul>
+                </li>
+
+  <div class="nav-no-collapse navbar-left pull-left">
+                    <ul class="nav navbar-nav pull-left">
+                <li class="dropdown">
+                            <a href="/user/home/openMyCart" class="btn dropdown-toggle" >
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="count">0</span>
+                            </a>
+                           
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+            </ul>
+        </div>
+
+        <div class="nav-no-collapse pull-right" id="header-nav">
+            <ul class="nav navbar-nav pull-right">
+
+                
+                <li class="dropdown profile-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="/resources/img/sample.PNG" alt="" style="background-clip: padding-box;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: left;
+    height: 35px;
+    margin-right: 5px;
+    width: 35px;"/>
+                        <span class="hidden-xs">
+                           Shreejith
+                            
+                            </span> <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="/user/home/profile"><i class="fa fa-user"></i>Profile</a></li>
+                       
+                        <li><a onclick="logoutFunctionEdit()" href="/j_spring_security_logout"><i class="fa fa-power-off"></i>Logout</a></li>
+                    </ul>
+                </li> 
+                <li class="hidden-xs">
+                    <a class="btn" onclick="logoutFunctionEdit()" href="/j_spring_security_logout">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+            </header>
+
+            <div id="page-wrapper" class="container">
+                <div class="row">
+                    <div id="nav-col">
+                        
+
+
+
+
+<section id="col-left" class="col-left-nano">
+    <div id="col-left-inner" class="col-left-nano-content">
+        <div id="user-left-box" class="clearfix hidden-sm hidden-xs dropdown profile2-dropdown">
+           
+         
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-nav" style="padding-bottom: 70px;">
+            <ul class="nav nav-pills nav-stacked">
+               
+                <li id="mydashboardId">
+                    <a href="/user/common/dashboard">
+                        <i class="fas fa-tachometer-alt" style="color:#d50000;"></i>
+                        <span>Dashboard</span>
+<!--             <span class="label label-primary label-circle pull-right">28</span>-->
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" id="testBankId">
+                        <i class="fa fa-file-text" style="color:#64dd17;"></i>
+                        <span>My Test Bank</span>
+                        <i class="fa fa-angle-right drop-icon"></i>
+                    </a>
+                    <ul class="submenu">
+                         <form id="subjectValuemenuForm" name="subjectValuemenuForm" method="POST">
+                          <input type="hidden" id="selectedSubjectDisplayName" name="selectedSubjectDisplayName" />
+                        </form>
+                        <li>
+                            <a id="pypTestsId" href="#" onclick="javascript:getChapterListF('Physics','/user/home/showChapters','subjectValuemenuForm');">
+
+                                <i class="fa fa-rocket" style="color:#8bc34a;font-weight:900;"></i>&nbsp; Physics
+                            </a>
+                        </li>
+                        <li>
+                            <a id="chemistryTestsId" href="#" onclick="javascript:getChapterListF('Chemistry','/user/home/showChapters','subjectValuemenuForm');">
+                             <i class="fa fa-files-o" style="color:#4caf50;font-weight:900;"></i>   Chemistry
+                            </a>
+                        </li>
+                        <li>
+                            <a id="biologyTestsId" href="#" onclick="javascript:getChapterListF('Biology','/user/home/showChapters','subjectValuemenuForm');">
+                           <i class="fa fa-globe" style="color:#3d5afe;font-weight:900;"></i>&nbsp;&nbsp;    Biology
+                            </a>
+                        </li>
+                        <li>
+                            <a id="mathsTestsId" href="#" onclick="javascript:getChapterListF('Maths','/user/home/showChapters','subjectValuemenuForm');">
+                            <i class="fa fa-superscript" style="color:#ffb300;font-weight:900;"></i>&nbsp;    Maths
+                            </a>
+                        </li>
+                        
+                       
+                       
+                    </ul>
+                </li>
+
+                                
+                
+                
+<!--                <li id="testreportViewId">
+                    <a href="/user/home/reportsTest" >
+                        <i class="fa fa-bar-chart-o"></i>
+                        <span>My Reports</span>
+                    </a>
+                </li>-->
+               <li id="testreportViewId">
+                    
+                   <a href="#" class="dropdown-toggle" id="reportId">
+                        <i class="fa fa-bar-chart-o" style="color:#009688;"></i>
+                        <span>My Reports</span>
+                        <i class="fa fa-angle-right drop-icon"></i>
+                    </a>
+                    <ul class="submenu">
+
+                        <li>
+                           <a id="statisticesId" href="/user/home/reportsTest" >
+                               <i class="fa fa-table" style="color:#ffa000;font-weight:900;"></i>&nbsp; Statistics & Reports
+                            </a>
+                        </li>
+                        <li>
+<!--                            <a href="/user/home/analysisReportsTest" >-->
+                             <a id="analysisId" href="/user/home/analysisReportPerChapter" >
+                              <i class="fa fa-line-chart" style="color:#1565c0;font-weight:900;"></i>&nbsp;  Analysis 
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="testrevisionViewId">
+                  <a href="/user/imp/QuestionRevision">
+                        <i class="fa fa-history" style="color:#ff6d00;"></i>
+                        <span>My Revision</span>
+                  </a>		
+		 </li>
+
+
+
+
+
+<li>
+    <a href="#" class="dropdown-toggle" id="myAccountId">
+        <i class="fa fa-th-list" style="color:#9c27b0;"></i>
+        <span style="color: #484848;">My Account</span>
+        <i class="fa fa-angle-right drop-icon"></i>
+    </a>
+    <ul class="submenu" style="display: none;">
+        <li>
+            <a id="myProfileId" href="/user/home/profile">
+                <i class="fa fa-user" style="color:#1a8ae9;"></i>
+                <span style="color: #484848;">&nbsp; My Profile</span>
+            </a>
+        </li>
+        <li>
+            <a id="accountId" href="/account/transaction">
+                <i class="fa fa-credit-card" style="color:#f23224;"></i>
+                <span style="color: #484848;">&nbsp; My Orders</span>
+
+            </a>
+        </li>
+	<li>
+            <a id="walletId" href="/account/wallet">
+                <i class="fa fa-money" style="color:#9c27b0;"></i>
+                <span style="color: #484848;">&nbsp; My Wallet</span>
+
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+
+
+              <li>
+                    <a  href="/user/knight-street" >
+                       <i class="fa fa-certificate " style="color:#ff3d00;"></i>
+                        <span>Game-Street <sup><span style="color:#fff;padding:1.2px;background-color:#d32f2f;font-size:9px;font-weight:normal;border-radius:2px;">NEW</span></sup></span>
+
+                    </a>
+                </li>
+
+                                                    <li >
+                    <a id="aboutUsIdClick" href="#" class="dropdown-toggle">
+                        <i class="fa fa-info-circle" style="color:#2e7d32;"></i>
+                        <span>About Us</span>
+                        <i class="fa fa-angle-right drop-icon"></i>
+                    </a>
+                   <ul class="submenu">
+                        <li id="aboutid">
+                            <a href="/about">
+                                About Us
+                            </a>
+                        </li>
+                         <li id="foundationcourseid">
+
+                            <a href="/foundation-course.jsp">
+                               Foundation-Courses
+                          </a>
+
+                        </li>
+
+                                                   
+
+			<li id="solutionsid">
+
+                            <a href="/ncert-solutions">
+                               Ncert-Solutions                            </a>
+
+                        </li>
+
+                         <li id="exemplarid">
+
+                            <a href="/exemplar">
+                               Exemplar
+                            </a>
+
+                        </li>
+
+                        <li id="faqid">
+
+                            <a href="/faq">
+                               FAQ
+                            </a>
+
+                        </li>
+                      
+                    
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</section>
+<div id="nav-col-submenu"></div>
+
+
+                    </div>
+                    <div id="content-wrapper">
+                        
+
+
+
+
+<script src="/resources/js/rwuser.js?v=4.1"></script>
+<!--<link rel="stylesheet" type="text/css" href="/resources/css/libs/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/libs/nanoscroller.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/libs/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/libs/nanoscroller.css" />
+<link rel="stylesheet" type="text/css" href="/resources/css/compiled/theme_styles.css" />-->
+<!-- Icon fonts -->
+<link rel="stylesheet" href="/resources/champStreet19/assets/fonts/fontawesome/css/all.css">
+<link rel="stylesheet" href="/resources/champStreet19/assets/fonts/themify-icons/css/themify-icons.css">
+
+<!-- video Popup script-->
+<script src="/resources/champStreet19/fancybox/jquery.min.js"></script>
+<link rel="stylesheet" href="/resources/champStreet19/fancybox/jquery.fancybox.min.css" />
+<script src="/resources/champStreet19/fancybox/jquery.fancybox.min.js"></script>
+<!-- video Popup script closed -->
+
+
+
+<style>
+ 
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+    .tweet-wrapper {
+    padding: 10px;
+    line-height: 16px;
+    font-size: 0.875em;
+    line-height: 1.4;
+   
+}
+.tweet-wrapper h3 {
+    
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin-top: 2px;
+    margin-bottom:5px;
+    border: none;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.item  {
+    border-radius: 6px;
+    background-color:#fff;
+    box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.25);
+}
+.item a {
+    text-decoration: none;
+}
+.galcolumn{
+    
+    padding-bottom: 10px;
+    float: none;
+    box-sizing: border-box;}
+
+.col-lg-3{
+    margin-bottom: 20px;
+    /*height: 200px;*/}
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #eee;
+    background-color: #e0e0e0;}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-radius: 7px;
+    background-color: #3f51b5;
+    color: #fff;
+    border:none;
+}
+.nav-tabs > li{margin-bottom:5px;}
+.nav-tabs > li > a {
+    border-radius: 7px;
+    background-clip: padding-box;
+    font-size: 1.125em;
+    font-weight: 600;
+    outline: none;
+    color: #3f51b5;
+    margin-right: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 10px 5px rgba(192, 192, 192, 0.29);
+}
+.tabs-wrapper .nav-tabs {
+    margin-bottom: 15px;
+    margin-left: 15px;
+   background: transparent;
+}
+.tabs-wrapper .tab-content {
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    font-weight: 600;
+}
+@media only screen and (max-width: 467px) {
+  .subject_icon img{width: 50px !important;}
+  .test_list_icon img{width: 20px !important;}
+  .tabs-wrapper .nav-tabs {
+    margin-bottom: 10px;
+    margin-left: 0px;
+} 
+}
+
+
+/* video Popup style */
+        .position-relative {
+            position: relative !important;
+        }
+        .bg-danger {
+            background-color: #fd3635 !important;
+            color: #fff;
+        }
+        .absolute-center {
+            position: absolute;
+            top: 50% !important;
+            left: 50% !important;
+            -webkit-transform: translate(-50%, -50%) !important;
+            -ms-transform: translate(-50%, -50%) !important;
+            transform: translate(-50%, -50%) !important;
+        }
+        .iconbox {
+            width: 60px !important;
+            height: 60px !important;
+            display: -webkit-inline-flex;
+            display: -moz-inline-flex;
+            display: -ms-inline-flex;
+            display: -o-inline-flex;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            border-radius: 10rem;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+        .position-absolute {
+            position: absolute !important;
+        }
+        .text-white {
+            color: #fff !important;
+        }
+
+
+</style>
+
+
+ <form id="backShowTestDiv" name="backShowTestDiv" method="post">
+    <input type="hidden" id="preCourseId" name="preCourseId" value="5" />
+    <input type="hidden" id="preSubjectId" name="preSubjectId" value="24" />
+    <input type="hidden" id="preSubjectName" name="preSubjectName" value="Biology" />
+    <input type="hidden" id="selectedSubjectDisplayName" name="selectedSubjectDisplayName" value="" />
+
+</form>
+
+
+<div class="container page-container">
+    <div class="col-lg-12">
+        <ol class="breadcrumb">
+	     <li><a href="/user/common/dashboard">Dashboard</a></li>           
+		<li><a href="#" onclick="getTestListFromReport('backShowTestDiv','/user/home/showChapters')">
+	
+        
+        
+        
+        
+            <span>Class 6 - Biology</span>
+	</a></li>
+        </ol>     
+</div>
+<div class="row">
+<div class="col-xs-10">
+
+	
+        
+        
+        
+        
+            <h1 style="margin-top:12px;"> Fibre to Fabric  </h1>
+
+</div>
+<div class="col-xs-2">
+
+
+
+
+
+
+
+
+<div class="text-center subject_icon" style="margin-bottom:8px;">
+<i class="fa vert-move" style="font-family:inherit"><img src="/revisewise/icons/biology.svg" style="width:64px;"></i>
+<style>#content-wrapper {background-image: url('https://www.champstreet.com/resources/champStreet19/assets/img/all-images/biology-background-graphic.png');background-repeat:no-repeat;}</style>
+</div>
+
+
+</div>	
+</div>
+
+<div class="row">
+    
+
+    
+        <div class="col-lg-12">
+    
+
+    <form name="showTestForm" id="showTestForm" method="post">
+        <input type="hidden" id="testId" name="testId" />
+        <input type="hidden" id="temptestIdSynopsis" name="temptestIdSynopsis" />
+        <input type="hidden" id="temptestchoosedSubjectName" name="temptestchoosedSubjectName" value="Biology" />
+
+        <div class="tabs-wrapper ">
+            <ul class="nav nav-tabs test_list_icon">
+                
+
+                
+                    <li class="active" style="margin-bottom:5px;">
+                        <a href="#tabs-4" id="tabIdTest" name="tabIdTest" data-toggle="tab"><img src="/revisewise/icons/video.svg" style="width: 32px;"> Video</a>
+                    </li>
+                    <li style="margin-bottom:5px;">
+                        <a href="#tabs-0" id="tabIdPractice1" name="tabIdPractice1" data-toggle="tab">
+                            <img src="/revisewise/icons/learn.svg" style="width: 32px;"> Learn</a>
+                    </li>
+
+                    <li style="margin-bottom:5px;">
+                        <a href="#tabs-1" id="tabIdPractice3" name="tabIdPractice3" data-toggle="tab"><img src="/revisewise/icons/practice.svg" style="width: 32px;"> Practice</a>
+                    </li>
+
+                    <li style="margin-bottom:5px;">
+                        <a href="#tabs-2" id="tabIdPractice2" name="tabIdPractice2" data-toggle="tab"><img src="/revisewise/icons/test.svg" style="width: 32px;"> Test</a>
+                    </li>
+                    <li style="margin-bottom:5px;">
+                        <a href="#tabs-3" id="tabIdPractice4" name="tabIdPractice4" data-toggle="tab"><img src="/revisewise/icons/ncert-questions.png" style="width: 32px;"> NCERT</a>
+                    </li>
+                     
+
+                
+
+            </ul>
+            <div class="tab-content">
+
+                <div class="tab-pane" id="tabs-0">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/concept-map.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         Concept Map</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Concept Map</a>
+                                                            
+                                                            
+
+                                                            
+                                                            
+                                                             
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" onClick="javascript:openEpupFunction('/user/home/epubReader','showTestForm','1556')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+
+                                                                
+                                                               
+                                                                
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/essential-points.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         Essential Points</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">Reading</a>
+                                                            
+                                                            
+                                                            
+                                                            
+
+                                                            
+                                                            
+                                                             
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" onClick="javascript:openEpupFunction('/user/home/epubReader','showTestForm','1557')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                               
+                                                                
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/true-false.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         True and False</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+
+                                                            
+                                                                <a class="pull-right">True False</a>
+                                                            
+                                                            
+                                                             
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1633')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                               
+                                                                
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/fill-in-the-blanks.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         Fill in the Blanks</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Fill In The Blank</a>
+                                                            
+
+                                                            
+                                                            
+                                                             
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1624')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+
+                                                                
+                                                               
+                                                                
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/quiz.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         Quiz</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                            
+                                                            
+
+                                                            
+                                                            
+                                                             
+                                                                <a class="pull-right">Quiz Type</a>
+                                                            
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                               
+                                                                
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','2380')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                             
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                         
+                                                                   
+                                                                  <img src="/revisewise/icons/study-material.svg" style="width: 40PX;">
+                                                                   
+ 
+                                                         Study Material</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">Reading</a>
+                                                            
+                                                            
+                                                            
+                                                            
+
+                                                            
+                                                            
+                                                             
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" onClick="javascript:openEpupFunction('/user/home/epubReader','showTestForm','1555')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                               
+                                                                
+                                                                
+
+                                                                      
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                             
+                                
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane " id="tabs-1">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                                   
+                                                                   
+                                                                  <img src="/revisewise/icons/solved-example.svg" style="width: 40PX;">
+                                                                   
+ Solved Examples</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Subjective</a>
+                                                            
+                                                            
+                                                             
+                                                            
+                                                            
+                                                            
+
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1651')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                 
+
+                                                                
+                                                                
+                                                                
+
+
+
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                            
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                                   
+                                                                   
+                                                                  <img src="/revisewise/icons/very-short-answer.svg" style="width: 40PX;">
+                                                                   
+ Very Short Answer</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Subjective</a>
+                                                            
+                                                            
+                                                             
+                                                            
+                                                            
+                                                            
+
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1660')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                 
+
+                                                                
+                                                                
+                                                                
+
+
+
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                            
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                                   
+                                                                   
+                                                                  <img src="/revisewise/icons/short-answers.svg" style="width: 40PX;">
+                                                                   
+ Short Answer</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Subjective</a>
+                                                            
+                                                            
+                                                             
+                                                            
+                                                            
+                                                            
+
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1669')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                 
+
+                                                                
+                                                                
+                                                                
+
+
+
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                            
+                                
+                                    
+
+                                    
+                                        
+                                            <div class="col-lg-3">
+                                                <div class="galcolumn">
+                                                    <div class="item item1">
+                                                        <div class="tweet-wrapper">
+                                                            <div style="height: 60px;">
+                                                                <h3>
+                                                                   
+                                                                   
+                                                                  <img src="/revisewise/icons/long-answer.svg" style="width: 40PX;">
+                                                                   
+ Long Answer</h3></div>
+                                                            <hr>
+                                                            <span class="user">Attempted : </span>
+                                                            
+                                                            
+                                                                <a class="pull-right">No</a>
+                                                            
+                                                            <div class="clearfix"></div>
+                                                            <hr>
+                                                            <span class="user">Type of test: </span>
+                                                            
+                                                            
+                                                            
+                                                                <a class="pull-right">Subjective</a>
+                                                            
+                                                            
+                                                             
+                                                            
+                                                            
+                                                            
+
+
+                                                            <hr>
+
+                                                            <div class="package-footer text-center">
+                                                                
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1678')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                 
+
+                                                                
+                                                                
+                                                                
+
+
+
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                    
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+                                
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="tab-pane " id="tabs-2">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/progress.svg" style="width: 40PX;">
+                                                                   
+                                                              Progress Check</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+
+                                                                    
+                                                                    <a  class="pull-right">
+                                                                       Yes
+                                                                    </a>
+                                                                
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                             
+                                                                <a class="pull-right">Quiz Type</a>
+                                                            
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                               
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1606')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+
+
+
+                                                                    
+
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/champ-difficult.svg" style="width: 40PX;">
+                                                                   
+                                                              Champ</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                    <a class="pull-right">MCQ</a>
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                             
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                               
+
+
+
+                                                                    
+
+                                                                        
+                                                                            
+                                                                            
+                                                                                <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1615')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                            
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/super-seven-quiz.svg" style="width: 40PX;">
+                                                                   
+                                                              Super Seven Challenge</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                                <a class="pull-right">Super Seven</a>
+                                                            
+                                                             
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                                    <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','2389')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                
+                                                               
+
+
+
+                                                                    
+
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                       <div class="tab-pane " id="tabs-3">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/ncert-questions.png" style="width: 40PX;">
+                                                                   
+                                                              NCERT</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                
+                                                                
+                                                                    <a class="pull-right">Subjective</a>
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                            
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                        <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','1642')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                                 
+
+
+
+                                                                    
+
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/mcq.svg" style="width: 40PX;">
+                                                                   
+                                                              Exemplar MCQ</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                    <a class="pull-right">MCQ</a>
+                                                                
+                                                                
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                            
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                                 
+
+
+
+                                                                    
+
+                                                                        
+                                                                            
+                                                                            
+                                                                                <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','2122')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                            
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+                                    
+                                        
+
+                                        
+                                            
+                                                <div class="col-lg-3">
+                                                    <div class="galcolumn">
+                                                        <div class="item item1">
+                                                            <div class="tweet-wrapper">
+                                                                <div style="height: 60px;">
+                                                                    <h3>
+                                                                 
+                                                                   
+                                                                  <img src="/revisewise/icons/exemplar.svg" style="width: 40PX;">
+                                                                   
+                                                              Exemplar Subjective</h3></div>
+                                                                <hr>
+                                                                <span class="user">Attempted : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                                <hr>
+                                                                <span class="user">Type of test: </span>
+                                                                
+                                                                
+                                                                
+                                                                    <a class="pull-right">Subjective</a>
+                                                                
+                                                                
+                                                               
+                                                            
+                                                             
+                                                            
+
+
+                                                                <hr>
+
+                                                                <div class="package-footer text-center">
+                                                                    
+                                                                        <a class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" data-toggle="modal" data-target="#modalTestSynopsis" onclick="javascript:getTestSynopsisFunction('/user/home/testSynopsis','showTestForm','2123')">
+															Open  <span class="fa fa-angle-double-right fa-lg"></span>
+															</a>
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+
+                                                                
+                                                                 
+                                                                 
+
+
+
+                                                                    
+
+                                                                        
+
+                                                                        
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        
+                                    
+                                
+                                    
+                                
+                                    
+                                
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+
+
+
+                    
+                    
+             <div class="tab-pane active " id="tabs-4">
+                        <div class="row">
+                            <div class="col-lg-12">
+				   
+                                     
+                                     
+                                   
+                                        
+
+                                        
+                                            
+                                                           <div class="col-lg-3">
+    <div class="galcolumn">
+        <div class="item item1">
+            <div class="tweet-wrapper"> 
+                 <div class="text-center">                	
+          			<div style="width: 100%; text-align: center; margin: 10px 0px 0px; height:60px;">
+        			<h3>Introduction to Fibres</h3>
+				</div>
+				<hr>
+                                                                <span class="user pull-left">Viewed : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                <hr>
+
+				<span style="width: 100%; margin: 0px; padding: 0px;">
+					<a onclick="javascript:enterInTestResultSummary('3567');" href="https://player.vimeo.com/video/250238558" data-fancybox="">
+					<img  src="/revisewise/icons/video.svg" style="width: 64px;">			        
+					</a>
+					
+
+				<span>
+				
+       		                				      
+	         </div>
+                                     
+
+                <hr />
+                                           
+               <div class="package-footer text-center">
+                                              <div class="col-lg-12 text-center">
+                                                                                <a onclick="javascript:enterInTestResultSummary('3567');" href="https://player.vimeo.com/video/250238558" data-fancybox="" class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" >
+															Play  <i class="ti-control-play text-white"></i>
+															</a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        
+                                                                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div> 
+                                            
+                                        
+                                   
+                                    
+                                    
+                                            
+                                      
+                                    
+                                     
+                                                            
+                                 
+                                     
+                                     
+                                   
+                                        
+
+                                        
+                                            
+                                                           <div class="col-lg-3">
+    <div class="galcolumn">
+        <div class="item item1">
+            <div class="tweet-wrapper"> 
+                 <div class="text-center">                	
+          			<div style="width: 100%; text-align: center; margin: 10px 0px 0px; height:60px;">
+        			<h3>Jute Fibres</h3>
+				</div>
+				<hr>
+                                                                <span class="user pull-left">Viewed : </span>
+                                                                
+                                                                
+                                                                    <a class="pull-right">No</a>
+                                                                
+                                                                <div class="clearfix"></div>
+                                <hr>
+
+				<span style="width: 100%; margin: 0px; padding: 0px;">
+					<a onclick="javascript:enterInTestResultSummary('3568');" href="https://player.vimeo.com/video/250239194" data-fancybox="">
+					<img  src="/revisewise/icons/video.svg" style="width: 64px;">			        
+					</a>
+					
+
+				<span>
+				
+       		                				      
+	         </div>
+                                     
+
+                <hr />
+                                           
+               <div class="package-footer text-center">
+                                              <div class="col-lg-12 text-center">
+                                                                                <a onclick="javascript:enterInTestResultSummary('3568');" href="https://player.vimeo.com/video/250239194" data-fancybox="" class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" >
+															Play  <i class="ti-control-play text-white"></i>
+															</a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        
+                                                                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div> 
+                                            
+                                        
+                                   
+                                    
+                                    
+                                            
+                                      
+                                    
+                                     
+                                                            
+                                 
+                                     
+                                     
+                                   
+                                        
+
+                                        
+                                            
+                                                           <div class="col-lg-3">
+    <div class="galcolumn">
+        <div class="item item1">
+            <div class="tweet-wrapper"> 
+                 <div class="text-center">                	
+          			<div style="width: 100%; text-align: center; margin: 10px 0px 0px; height:60px;">
+        			<h3>Cotton Fibres</h3>
+				</div>
+				<hr>
+                                                                <span class="user pull-left">Viewed : </span>
+                                                                                                                                    
+                                                                    <a class="pull-right">
+                                                                        Yes
+                                                                    </a>
+                                                                
+                                                                
+                                                                <div class="clearfix"></div>
+                                <hr>
+
+				<span style="width: 100%; margin: 0px; padding: 0px;">
+					<a onclick="javascript:enterInTestResultSummary('3569');" href="https://player.vimeo.com/video/250240424" data-fancybox="">
+					<img  src="/revisewise/icons/video.svg" style="width: 64px;">			        
+					</a>
+					
+
+				<span>
+				
+       		                				      
+	         </div>
+                                     
+
+                <hr />
+                                           
+               <div class="package-footer text-center">
+                                              <div class="col-lg-12 text-center">
+                                                                                <a onclick="javascript:enterInTestResultSummary('3569');" href="https://player.vimeo.com/video/250240424" data-fancybox="" class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" >
+															Play  <i class="ti-control-play text-white"></i>
+															</a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        
+                                                                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div> 
+                                            
+                                        
+                                   
+                                    
+                                    
+                                            
+                                      
+                                    
+                                     
+                                                            
+                                 
+                                     
+                                     
+                                   
+                                        
+
+                                        
+                                            
+                                                           <div class="col-lg-3">
+    <div class="galcolumn">
+        <div class="item item1">
+            <div class="tweet-wrapper"> 
+                 <div class="text-center">                	
+          			<div style="width: 100%; text-align: center; margin: 10px 0px 0px; height:60px;">
+        			<h3>Weaving Cotton Fibres into Yarns</h3>
+				</div>
+				<hr>
+                                                                <span class="user pull-left">Viewed : </span>
+                                                                                                                                    
+                                                                    <a class="pull-right">
+                                                                        Yes
+                                                                    </a>
+                                                                
+                                                                
+                                                                <div class="clearfix"></div>
+                                <hr>
+
+				<span style="width: 100%; margin: 0px; padding: 0px;">
+					<a onclick="javascript:enterInTestResultSummary('3570');" href="https://player.vimeo.com/video/250241009" data-fancybox="">
+					<img  src="/revisewise/icons/video.svg" style="width: 64px;">			        
+					</a>
+					
+
+				<span>
+				
+       		                				      
+	         </div>
+                                     
+
+                <hr />
+                                           
+               <div class="package-footer text-center">
+                                              <div class="col-lg-12 text-center">
+                                                                                <a onclick="javascript:enterInTestResultSummary('3570');" href="https://player.vimeo.com/video/250241009" data-fancybox="" class="btn btn-success center-block" style="width: auto; display: inline;border-radius: 25px;" >
+															Play  <i class="ti-control-play text-white"></i>
+															</a>
+                                                                            </div>
+                                                                            <div class="clearfix"></div>
+                                                                        
+                                                                </div>
+                  
+            </div>
+        </div>
+    </div>
+</div> 
+                                            
+                                        
+                                   
+                                    
+                                    
+                                            
+                                      
+                                    
+                                     
+                                                            
+                                
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                
+
+                
+
+            </div>
+
+        </div>
+    </form>
+    </div>
+
+    
+
+    </div>
+    <!--   </div>-->
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+<div class="modal fade" id="purchasePopup" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">My cart</h4>
+            </div>
+            <div class="modal-body">
+                <form name="listValueForm" id="listValueForm" method="POST">
+                    <input type="hidden" id="checkedBookIds" name="checkedBookIds" />
+                    <div class="form-group">
+                        <div id="purchasePopUpDiv" name="purchasePopUpDiv"></div>
+
+                    </div>
+                    <center>
+                        <input type="button" class="btn btn-success" value="Add to cart" onclick="javascript:selectedBooksPopUpSelection('/user/home/add','listValueForm')">
+                    </center>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <div class="modal fade" id="videoPlayPopup" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Video</h4>
+            </div>
+            <div class="modal-body">
+               
+                    <div class="form-group">
+                        <div id="videoPlayPopUpDiv" name="videoPlayPopUpDiv"></div>
+
+                    </div>
+                    <center>
+                       
+                    </center>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div> 
+                    
+                    
+   <!--TEST SYNOPSIS -->
+ <form id="ajaxtestSynopsisForm" name="ajaxtestSynopsisForm" method="POST">
+ <div class="modal fade" id="modalTestSynopsis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content" style="border-radius: 5px;">
+               <div class="modal-body">
+		 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title mb-2" id="myModalLabel">Test Synopsis</h4>
+                        <div id="ajaxtestSynopsisDiv" name="ajaxtestSynopsisDiv"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<!-- /TEST SYNOPSIS -->                 
+                    
+                    
+ <a href="#videoPlayPopup" id="videoPlayPopupCallId" name="videoPlayPopupCallId" data-toggle="modal"></a> 
+
+<a href="#purchasePopup" id="purchasePopupCallId" name="purchasePopupCallId" data-toggle="modal"></a> 
+<input type="hidden" id="tempTestDisplayCategoryForTest" name="tempTestDisplayCategoryForTest" value="0"/>
+<script src="/resources/js/revisewise.js"></script>
+<script src="/resources/js/rwuser.js"></script>
+<!-- global scripts -->
+	<script src="/resources/js/demo-skin-changer.js"></script> <!-- only for demo -->
+	
+	<script src="/resources/js/jquery.js"></script>
+	<script src="/resources/js/bootstrap.js"></script>
+	<script src="/resources/js/jquery.nanoscroller.min.js"></script>
+	
+	
+	
+	<!-- this page specific scripts -->
+	<script src="/resources/js/jquery.grid-a-licious.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="/resources/js/scripts.js"></script>
+	<script src="/resources/js/pace.min.js"></script>
+	
+	<!-- this page specific inline scripts -->
+        <script type='text/javascript'>
+
+           window.onload = function() {
+ 
+            
+             var tempTestDisplayCategoryForTest= document.getElementById("tempTestDisplayCategoryForTest").value;
+            //  if(tempTestDisplayCategoryForTest !=0){
+            //   document.getElementById("tabIdPractice3").click();
+            // }
+              if(tempTestDisplayCategoryForTest ==1){
+               document.getElementById("tabIdPractice1").click();
+              }
+               if(tempTestDisplayCategoryForTest ==2){
+              document.getElementById("tabIdPractice2").click();
+              }
+              if(tempTestDisplayCategoryForTest ==3){
+               document.getElementById("tabIdPractice3").click();
+              }
+              if(tempTestDisplayCategoryForTest ==4){
+              document.getElementById("tabIdPractice4").click();
+              }
+              
+
+              document.getElementById("testBankId").click();
+//               var temptestchoosedSubjectName = document.getElementById("temptestchoosedSubjectName").value;
+//               if(temptestchoosedSubjectName =="Biology"){
+//                    document.getElementById("biologyTestsId").classList.add("active"); 
+//               }
+//             if(temptestchoosedSubjectName =="Maths"){
+//                    document.getElementById("mathsTestsId").classList.add("active"); 
+//               }
+//                if(temptestchoosedSubjectName =="Physics"){
+//                    document.getElementById("pypTestsId").classList.add("active"); 
+//               }
+//                if(temptestchoosedSubjectName =="Chemistry"){
+//                    document.getElementById("chemistryTestsId").classList.add("active"); 
+//               }
+
+
+
+           }
+
+
+       </script>
+	<script>
+	$(document).ready(function () {
+		$("#timeline-grid").gridalicious({
+			gutter: 10,
+			width: 180,
+			animate: true,
+			animationOptions: {
+				speed: 150,
+				duration: 500
+			},
+		});
+	});
+	</script>
+<script type="text/javascript">
+flag=false;
+function checkSelectedBooks(id){
+ 
+    check=false;
+    var cboxes = document.getElementsByName('bookIdSelected');
+
+    var len = cboxes.length;
+
+    for (var i=0; i<len; i++) {
+        var a= cboxes[i].checked;
+        if(cboxes[i].checked){
+            //      ////alert("if");
+            check=true;
+
+        }
+    }
+    if(check==true){
+
+
+        flag=false;
+        check==false;
+    }
+    else if(flag==true && check==true){
+        //////alert("both");
+
+        flag=false;
+        check==false;
+        return;
+    }
+
+    flag=true;
+}
+</script>
+<script type="text/javascript">
+	function totalPriceOfBooks(id) {
+              check=false;
+    var cboxes = document.getElementsByName('bookId');
+
+    var len = cboxes.length;
+
+    for (var i=0; i<len; i++) {
+        var a= cboxes[i].checked;
+        if(cboxes[i].checked){          
+            check=true;
+
+        }
+    }
+    if(check==true){
+
+
+        flag=false;
+        check==false;
+    }
+    else if(flag==true && check==true){
+      
+        flag=false;
+        check==false;
+        return;
+    }
+
+    flag=true;
+      var om = document.getElementsByName("bookId");
+    
+    if(om != undefined){
+        var pmid = "";
+        var numberOfquestion = om.length;
+       
+        if(numberOfquestion == undefined){
+            if(om.checked){
+//                pmid = pmid + "," + om.value;
+             pmid = pmid + "," + om.id;
+            }
+        }else{
+            for(i = 0 ; i <numberOfquestion ;i++){
+                if(om[i].checked){
+//                    pmid = pmid + "," + om[i].value;
+  pmid = pmid + "," + om[i].id;
+
+                }
+            }
+        }
+        var pmidarray = pmid.split(",");
+
+        document.getElementById("selectedSubjectIds").value= pmid;      
+    }  
+		document.listForm.total.value = '';
+		var sum = 0;
+		for (i=0;i<document.listForm.bookId.length;i++) {
+		  if (document.listForm.bookId[i].checked) {
+		  	sum = sum + parseInt(document.listForm.bookId[i].value);
+		  }
+		}
+		document.listForm.total.value = sum;
+	}
+</script>
+
+<script type="text/javascript">
+function trueFalseTimerSelectedOrNot(thevalue) {
+                                                                                          //  var x = document.getElementById(thevalue).value;
+                                                                                          //  alert(x);
+                                                                                            document.getElementById('testWithoutTimer').value =thevalue;
+                                                                                        
+                                                                                        }
+                                                                                        </script>
+
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>

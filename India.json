@@ -1,0 +1,16 @@
+India
+<html>
+<head>
+<script>
+moveForward(100);
+turnLeft(120);
+moveForward(100);
+turnLeft(120);
+moveForward(100);
+turnRight(120);
+moveForward(100);
+turnRight(120);
+moveForward(100);
+</script>
+</head>
+</html>
